@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { TypeTheme } from "../theme/GlobalTheme"
+import imageAvatar from "../images/image-avatar.png"
 
 const Container = styled.section`
   display: flex;
@@ -35,7 +36,7 @@ function CardCredits() {
   return (
     <Container>
       <PerfilImage>
-        <img src="../src/images/image-avatar.png" />
+        <img src={imageAvatar} />
       </PerfilImage>
       <Credits>
         Creation of <span>Jules Wyvern</span>

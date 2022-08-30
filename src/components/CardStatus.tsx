@@ -1,5 +1,7 @@
 import styled from "styled-components"
 import { TypeTheme } from "../theme/GlobalTheme"
+import imageEthereum from "../images/icon-ethereum.svg"
+import imageClock from "../images/icon-clock.svg"
 
 const Container = styled.section`
   display: flex;
@@ -30,11 +32,11 @@ function CardStatus() {
   return (
     <Container>
       <Price>
-        <img src="../src/images/icon-ethereum.svg" />
+        <img src={imageEthereum} />
         0.041 ETH
       </Price>
       <DaysLeft>
-        <img src="../src/images/icon-clock.svg" />
+        <img src={imageClock} />
         3 days left
       </DaysLeft>
     </Container>

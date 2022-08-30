@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import imageEquilibrium from "../images/image-equilibrium.jpg"
+import imageView from "../images/icon-view.svg"
 
 const ImageContainer = styled.figure`
   position: relative;
@@ -14,7 +16,7 @@ const ImageContainer = styled.figure`
     background-position: center;
     background-repeat: no-repeat;
     background-color: hsla(178, 100%, 50%, 40%);
-    background-image: url('../src/images/icon-view.svg');
+    background-image: url(${imageView});
   }
 
   &:hover::before {
@@ -31,7 +33,7 @@ const ImageContainer = styled.figure`
 function CardImage() {
   return (
     <ImageContainer>
-      <img src="../src/images/image-equilibrium.jpg" />
+      <img src={imageEquilibrium} />
     </ImageContainer>
   )
 }

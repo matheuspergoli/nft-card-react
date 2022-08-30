@@ -30,11 +30,11 @@ function CardStatus() {
   return (
     <Container>
       <Price>
-        <img src="./src/images/icon-ethereum.svg" />
+        <img src="../src/images/icon-ethereum.svg" />
         0.041 ETH
       </Price>
       <DaysLeft>
-        <img src="./src/images/icon-clock.svg" />
+        <img src="../src/images/icon-clock.svg" />
         3 days left
       </DaysLeft>
     </Container>

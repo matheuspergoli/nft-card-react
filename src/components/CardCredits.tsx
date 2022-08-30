@@ -35,7 +35,7 @@ function CardCredits() {
   return (
     <Container>
       <PerfilImage>
-        <img src="./src/images/image-avatar.png" />
+        <img src="../src/images/image-avatar.png" />
       </PerfilImage>
       <Credits>
         Creation of <span>Jules Wyvern</span>

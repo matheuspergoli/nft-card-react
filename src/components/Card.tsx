@@ -19,16 +19,12 @@ const CardContainer = styled.main`
   @keyframes showCard {
    0% {
     opacity: 0;
-    transform: translateX(-50px);
-   }
-
-   80% {
-    transform: translateX(20px);
+    transform: translateX(50px) scale(0.8);
    }
 
    100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0) scale(1);
    }
   }
 `
